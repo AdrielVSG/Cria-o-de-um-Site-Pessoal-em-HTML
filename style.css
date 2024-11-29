@@ -1,0 +1,116 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #1c1c1c; /* Preto sutil */
+    color: #e5e5e5; /* Cinza claro para contraste */
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(90deg, #333, #555, #333); /* Gradiente preto/cinza */
+    color: #ffd700; /* Toque de dourado */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffd700; /* Dourado */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff4500; /* Vermelho vibrante */
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+/* Estilos dos posts */
+.post {
+    background-color: #2e2e2e; /* Cinza escuro */
+    border: 1px solid #555; /* Borda cinza */
+    width: 100%;
+    max-width: 700px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.post h2 {
+    color: #ff4500; /* Vermelho vibrante */
+    margin-top: 0;
+    font-size: 28px;
+    border-bottom: 2px solid #ffd700; /* Linha dourada */
+    padding-bottom: 5px;
+}
+
+.post .data {
+    color: #999; /* Cinza médio */
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.post .resumo {
+    color: #dcdcdc; /* Cinza suave */
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.leia-mais {
+    color: #ff4500; /* Vermelho vibrante */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.leia-mais:hover {
+    color: #ffd700; /* Dourado */
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background: linear-gradient(90deg, #333, #555, #333); /* Gradiente preto/cinza */
+    color: #ffd700; /* Dourado */
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    margin-top: 20px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+    margin: 0;
+    letter-spacing: 1px;
+}
